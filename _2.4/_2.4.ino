@@ -12,7 +12,7 @@
 
 
 //****** secup *************************************************
-void setup() {
+void setup() {                                                             // s'inicia una vegada al començar 
   
    Serial.begin(9600);                                                     //velocitat de transmission de dades
    Serial.println("Escull el numero de l'operacio que vols realitzar?");   //linies d'escrit
@@ -23,7 +23,7 @@ void setup() {
 
 
 //****** Loop **************************************************
-void loop() {
+void loop() {                                                               // es va repetin continuament
  
 
 }
