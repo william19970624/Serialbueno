@@ -13,23 +13,18 @@
 
 //****** Setup *************************************************
 
-int drive_gb = 101;
-long drive_mb;            //canviamos de "int" a "long" para que coja mas bytes
-
+int test = 32767;
 
 void setup()              // se inicia una vez al empezar
 {
-  Serial.begin(9600);     // configuracion de la velocidad de datos
-   Serial.print("Your HD is ");
-  Serial.print(drive_gb);
-  Serial.println(" GB large.");
+  Serial.begin(9600);     //set up Serial library at 9600 bps
+  Serial.print("Test value is: ");
+  Serial.println(test);
 
-  drive_mb = drive_gb * 1024 ; // canvio l'ordre en la multiplicacio
-
-  Serial.print("It can store ");
-  Serial.print(drive_mb);
-  Serial.println(" Megabytes!");
-  
+  test = test + 1;
+ 
+  Serial.print("Now it is ");
+  Serial.println(test);
 }
 
 
