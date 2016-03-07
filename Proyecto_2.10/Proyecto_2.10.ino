@@ -1,5 +1,5 @@
 /***************************************************************
-**               Projecte 2.                                  **   
+**               Projecte 2.10                                  **   
 **          Hacer que el arduino scribira palabras            **
 **                                                            **
 ***************************************************************/
@@ -12,7 +12,7 @@
 
 int a = 3.00;
 int b = 2.00;
-int d;
+float d;
 
 //****** Setup *************************************************
 
@@ -27,9 +27,9 @@ void setup()              // se inicia una vez al empezar
   Serial.print("b = ");
   Serial.println(b);
   
-  d = a / b;
+  d =(float) a / b;
   
-  Serial.print("a.00 / b.00 = ");
+  Serial.print("a / b = ");
   Serial.println(d);
 }
 
