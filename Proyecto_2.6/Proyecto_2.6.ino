@@ -24,7 +24,7 @@ void setup()              // se inicia una vez al empezar
   Serial.print(drive_gb);
   Serial.println(" GB large.");
 
-  drive_mb = drive_gb * 1024 ;
+  drive_mb = drive_gb * 1024 ; // canvio l'ordre en la multiplicacio
 
   Serial.print("It can store ");
   Serial.print(drive_mb);
