@@ -1,6 +1,6 @@
 /***************************************************************
 **                  Projecte 3.                               **   
-**          Hacer que el arduino scribira palabras            **
+**          Hacer que el arduino escribira palabras           **
 **                                                            **
 ***************************************************************/
 
