@@ -13,7 +13,7 @@
 
 //****** Setup *************************************************
 
-int tempAigua = 98;                       // configurar el numero 101 com a "tempAigua"
+int tempAigua = 77;                       // configurar el numero 101 com a "tempAigua"
 
 void setup() 
 {
@@ -22,12 +22,12 @@ void setup()
   {
     Serial.print("Aigua encara no bull"); // informara de la temperatura de l'aigua
   }
-  if ( tempAigua == 100)
+  else if ( tempAigua == 100)
   {
     Serial.print("Aigua a 100C");         // informara de la temperatura de l'aigua
   }
 
-  if (tempAigua > 100)
+  else if (tempAigua > 100)
   {
     Serial.print("Aigua bullint");        // informara de la temperatura de l'aigua
   }
