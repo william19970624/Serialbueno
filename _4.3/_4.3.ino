@@ -13,7 +13,7 @@
 
 //****** Setup *************************************************
 
-int tempAigua = 77;                       // configurar el numero 101 com a "tempAigua"
+int tempAigua = 101;                       // configurar el numero 101 com a "tempAigua"
 
 void setup() 
 {
